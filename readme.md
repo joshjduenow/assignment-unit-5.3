@@ -41,7 +41,7 @@ Update the `3-music-collection.js` file to do the following:
 - Test the `showCollection` function.
 
 - Add a function named `findByArtist`. This function should:
-  - Take in a `collection` parameter. Remember, we want to be able to search any collection!
+ - Take in a `collection` parameter. Remember, we want to be able to search any collection!
   - Take in an `artist` (string) parameter
   - Create an empty array to hold any matching results, if any
   - Loop through the `collection` and add any album objects with a matching artist to the array.
@@ -49,7 +49,7 @@ Update the `3-music-collection.js` file to do the following:
 
 - Test the `findByArtist` function. Make sure to test with an artist you know is in the collection, as well as an artist you know is not in your collection. Check that for artists with multiple matches, all are returned.
 
-> When testing your functions, write all tests in the JavaScript file!
+> When testing your functions, write all tests in the JavaScript file !
 
 
 ### Stretch Goal
