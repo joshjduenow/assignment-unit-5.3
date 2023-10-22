@@ -37,7 +37,11 @@ addToCollection(myCollection, "Unplugged", "Nirvana", 1994);
 console.log("Albums in the collection:");
 showCollection(myCollection);
 
+const artistToFind = "Nirvana";
 
+console.log(`Albums by ${artistToFind}:`);
+const artist1Albums = findByArtist(myCollection, artistToFind);
+showCollection(artist1Albums);
 
 
 
