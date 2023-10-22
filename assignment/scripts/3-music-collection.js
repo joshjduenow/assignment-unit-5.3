@@ -19,12 +19,12 @@ function showCollection(myCollection) {
 
 
 
-addToCollection(myCollection, "Album1", "Artist1", 2020);
-addToCollection(myCollection, "Album2", "Artist2", 2015);
-addToCollection(myCollection, "Album3", "Artist1", 2018);
-addToCollection(myCollection, "Album4", "Artist3", 2022);
-addToCollection(myCollection, "Album5", "Artist2", 2010);
-addToCollection(myCollection, "Album6", "Artist4", 2005);
+addToCollection(myCollection, "Positive Songs for Negative People", "Frank Turner", 2015);
+addToCollection(myCollection, "The '59 Sound", "The Gaslight Anthem", 2009);
+addToCollection(myCollection, "My Arms, Your Hearse", "Opeth", 1998);
+addToCollection(myCollection, "...To the Beat of a Dead Horse", "Touche' Amore'", 2009);
+addToCollection(myCollection, "Nola", "Down", 1995);
+addToCollection(myCollection, "Unplugged", "Nirvana", 1994);
 
 
 
