@@ -2,16 +2,29 @@ console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
 const myCollection= [];
 
-function addToCollection(collection, title, artist, yearPublished) {
+function addToCollection(myCollection, title, artist, yearPublished) {
   const album = {
     title: title,
     artist: artist,
     yearPublished: yearPublished
   };
-  collection.push(album);
+  myCollection.push(album);
   return album;
 }
+function showCollection(myCollection) {
+  for (const album of myCollection) {
+    console.log(`${album.title} by ${album.artist}, published in ${album.yearPublished}`);
+  }
+}
 
+
+
+addToCollection(myCollection, "Album1", "Artist1", 2020);
+addToCollection(myCollection, "Album2", "Artist2", 2015);
+addToCollection(myCollection, "Album3", "Artist1", 2018);
+addToCollection(myCollection, "Album4", "Artist3", 2022);
+addToCollection(myCollection, "Album5", "Artist2", 2010);
+addToCollection(myCollection, "Album6", "Artist4", 2005);
 
 
 
