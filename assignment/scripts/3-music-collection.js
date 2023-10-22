@@ -34,7 +34,8 @@ addToCollection(myCollection, "...To the Beat of a Dead Horse", "Touche' Amore'"
 addToCollection(myCollection, "Nola", "Down", 1995);
 addToCollection(myCollection, "Unplugged", "Nirvana", 1994);
 
-
+console.log("Albums in the collection:");
+showCollection(myCollection);
 
 
 
