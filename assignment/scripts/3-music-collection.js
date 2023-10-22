@@ -16,7 +16,15 @@ function showCollection(myCollection) {
     console.log(`${album.title} by ${album.artist}, published in ${album.yearPublished}`);
   }
 }
-
+function findByArtist(myCollection, artist) {
+  const results = [];
+  for (const album of myCollection) {
+    if (album.artist === artist) {
+      results.push(album);
+    }
+  }
+  return results;
+}
 
 
 addToCollection(myCollection, "Positive Songs for Negative People", "Frank Turner", 2015);
